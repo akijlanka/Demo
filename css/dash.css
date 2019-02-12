@@ -1,0 +1,808 @@
+body{
+    margin: auto;
+    /*background: azure;*/
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 100000;
+}
+.logo{
+    color: orange;
+    height: 60px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav{
+    float: right;
+    margin-right: 280px;
+}
+.clearfix{
+    clear: both;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    display: none;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: powderblue;
+
+}
+nav ul li a.active,
+nav ul li a:hover{
+    background: SlateGrey;
+    color: azure;
+    transition: 0.5s;
+}
+
+.pro{
+    display: none;
+}
+.profile{
+    display: block;
+    width: 250px;
+    height: 80px;
+    background: darkslategray;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*===============================================================================================*/
+
+.icon{
+    position: absolute;
+    top: 10px;
+    left: 68%;
+    width: 120px;
+    height: 60px;
+    color: darkslategray;
+}
+.icon p{
+    margin: 0;
+}
+.icon i{
+    margin-right: 5px;
+    padding: 5px 5px;
+
+}
+.search input{
+    margin-top: 10px;
+    margin-left: 170px;
+}
+.search input{
+    border: none;
+    border-bottom: 1px solid darkslategray;
+    outline: none;
+    font-size: 20px;
+    width: 25%;
+    text-align: center;
+}
+.search input:focus{
+    border-bottom: 2px solid darkslategray;
+
+}
+button {
+    background: none;
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+    color: darkslategray;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+button:hover{
+    background: darkslategray;
+    color: white;
+    transition: 0.2s;
+}
+.profile{
+    color: azure;
+}
+.profile img{
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 700px;
+    padding: 10px 10px;
+
+}
+.profile p{
+    padding-top: 17px;
+    margin: auto;
+}
+.profile h5{
+    margin: auto;
+    padding-top: 5px;
+    color: darkcyan;
+}
+.next{
+    display: block;
+    width: 100%;
+    height: 700px;
+}
+.side-1 .dash{
+    position: absolute;
+    top: 120px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+
+.next .side-1{
+    position: fixed;
+    width: 20%;
+    height: 800px;
+    background: darkslategray;
+    z-index: 2;
+}
+
+.side-1 .cum{
+    position: absolute;
+    top: 190px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+.side-1 .item{
+    position: absolute;
+    top: 260px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+.side-1 .ord{
+    position: absolute;
+    top: 330px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+.side-1 .emp{
+    position: absolute;
+    top: 400px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+.side-1 .setting{
+    position: absolute;
+    top: 470px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+.side-1 .logout{
+    position: absolute;
+    top: 590px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+.side-1 p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+.side-1 i{
+    padding-right: 10px;
+}
+.side-1 a{
+    text-decoration: none;
+    color: powderblue;
+}
+
+.side-1 #active,
+.side-1 div:hover{
+    background: SlateGrey;
+    color: white;
+    transition: 0.1s;
+    border-right: 3px solid orange;
+}
+
+.next .side-2{
+    position: absolute;
+    top: 70px;
+    left: 20%;
+    width: 80%;
+    height: 800px;
+    z-index: 2;
+
+}
+/*=============================================================customer================================*/
+.das-cu{
+    position: absolute;
+    left: 9%;
+    top: 60px;
+    width: 20%;
+    border-radius: 10px;
+    height: 200px;
+    background: darkslategray;
+    color:powderblue;
+    transition: 0.2s;
+
+}
+.side-2 i{
+    padding: 30px 60px;
+    font-size: 90px;
+}
+
+.side-2 p{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.das-cu:hover{
+    background:SlateGrey;
+    color: orange;
+    transition: 0.2s;
+}
+/*===============================================================item================================================*/
+.das-it{
+    position: absolute;
+    left: 30%;
+    top: 60px;
+    width: 20%;
+    border-radius: 10px;
+    height: 200px;
+    background: darkslategray;
+    color: powderblue;
+}
+.das-it:hover{
+    background:SlateGrey;
+    color: orange;
+    transition: 0.2s;
+}
+
+.das-it i{
+    padding: 30px 50px;
+    font-size: 90px;
+}
+
+.das-it p{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+/*=======================================================================order==================================*/
+.das-or{
+    position: absolute;
+    left: 51%;
+    top: 60px;
+    width: 20%;
+    border-radius: 10px;
+    height: 200px;
+    background: darkslategray;
+    color: powderblue;
+}
+.das-or:hover{
+    background:SlateGrey;
+    color: orange;
+    transition: 0.2s;
+}
+
+.das-or i{
+    padding: 30px 70px;
+    font-size: 90px;
+}
+
+.das-or p{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+/*=======================================================employee=================================*/
+.das-em{
+    position: absolute;
+    left: 72%;
+    top: 60px;
+    width: 20%;
+    border-radius: 10px;
+    height: 200px;
+    background: darkslategray;
+    color: powderblue;
+}
+.das-em:hover{
+    background:SlateGrey;
+    color: orange;
+    transition: 0.2s;
+}
+
+.das-em i{
+    padding: 30px 60px;
+    font-size: 90px;
+}
+
+.das-em p{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+/*===============================================================settings====================================*/
+.das-sett{
+    position: absolute;
+    left: 9%;
+    top: 270px;
+    width: 20%;
+    border-radius: 10px;
+    height: 200px;
+    background: darkslategray;
+    color: powderblue;
+}
+.das-sett:hover{
+    background:SlateGrey;
+    color: orange;
+    transition: 0.2s;
+}
+
+.das-sett i{
+    padding: 30px 55px;
+    font-size: 90px;
+}
+
+.das-sett p{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+/*======================================================report===================================================*/
+
+.das-report{
+    position: absolute;
+    left: 30%;
+    top: 270px;
+    width: 20%;
+    border-radius: 10px;
+    height: 200px;
+    background: darkslategray;
+    color: powderblue;
+}
+.das-report:hover{
+    background:SlateGrey;
+    color: orange;
+    transition: 0.2s;
+}
+
+.das-report i{
+    padding: 30px 55px;
+    font-size: 90px;
+}
+
+.das-report p{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.mobile{
+    display: none;
+}
+
+/*===========================================================425px===========================================================*/
+
+@media all and (max-width: 425px) {
+
+    .next .side-2{
+        display: none;
+    }
+    .next .side-1{
+        display: none;
+    }
+    nav ul li a{
+        display: block;
+    }
+    nav{
+        display: block;
+        margin-right: 0;
+        width: 100%;
+    }
+    nav ul{
+        display: block;
+        width: 100%;
+    }
+    .pro {
+        display: block;
+        list-style: none;
+
+    }
+    nav .pro img{
+        position: absolute;
+        width: 40px;
+        height:40px;
+        border-radius: 100px;
+        top: 133px;
+        left: 85%;
+    }
+    nav .pro a{
+        display: block;
+        margin-top: 8px;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: darkcyan;
+    }
+    nav .pro p{
+        margin: auto;
+        color: azure;
+    }
+    nav .pro h6{
+        margin: auto;
+        padding-left: 3px;
+    }
+    nav .profile{
+        display: none;
+    }
+    nav i{
+        margin-right: 10px;
+    }
+    header{
+        position: absolute;
+        width: 100%;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        z-index: 100000;
+        background: darkslategray;
+        padding: 20px;
+    }
+    .search input{
+        margin-top: 10px;
+        margin-left: 90px;
+        color: azure;
+
+    }
+    .search input{
+        background: darkslategray;
+        border: none;
+        border-bottom: 1px solid white;
+        outline: none;
+        font-size: 20px;
+        width: 50%;
+        text-align: center;
+    }
+    .search input:focus{
+        border-bottom: 2px solid azure;
+
+    }
+    button {
+        background: none;
+        border: 2px solid azure;
+        border-radius: 5px;
+        color: azure;
+        font-size: 10px;
+        padding: 5px 5px;
+        text-transform: uppercase;
+        font-family: 'Noto Sans TC', sans-serif;
+
+    }
+    button:hover{
+        background: darkslategray;
+        color: white;
+        transition: 0.2s;
+    }
+    .icon{
+        color: azure;
+    }
+
+    .next{
+        display: block;
+        position: absolute;
+        top: 500px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .mobile{
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 800px;
+        /*background: orange;*/
+        margin-bottom: 200px;
+    }
+    .mobile .das-it{
+        position: absolute;
+        left: 30%;
+        top: 80px;
+        width: 50%;
+        border-radius: 10px;
+        height: 200px;
+        background: darkslategray;
+        color:powderblue;
+        transition: 0.2s;
+    }
+
+    .mobile .das-report{
+        position: absolute;
+        left: 30%;
+        top: 710px;
+        width: 50%;
+        border-radius: 10px;
+        height: 200px;
+        background: darkslategray;
+        color:powderblue;
+        transition: 0.2s;
+    }
+    body{
+        background: powderblue;
+    }
+    .mobile .das-or{
+        position: absolute;
+        left: 30%;
+        top: 290px;
+        width: 50%;
+        border-radius: 10px;
+        height: 200px;
+        background: darkslategray;
+        color:powderblue;
+        transition: 0.2s;
+    }
+
+    .mobile .das-cu{
+        position: absolute;
+        left: 30%;
+        top: 500px;
+        width: 50%;
+        border-radius: 10px;
+        height: 200px;
+        background: darkslategray;
+        color:powderblue;
+        transition: 0.2s;
+    }
+    .mobile .das-cu i{
+        padding: 20px 55px;
+        font-size: 90px;
+    }
+
+    .mobile .das-cu p{
+        text-align: center;
+        font-size: 30px;
+        margin: 0;
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+    footer{
+        position: absolute;
+        top: 1550px;
+        width: 100%;
+        height: 40px;
+        padding-left: 20px;
+    }
+    footer p{
+        text-align: center;
+    }
+
+
+
+
+
+}
+
+/*=========================================================375px============================================================*/
+@media all and (max-width: 1200px) {
+    header{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 375px) {
+
+    nav ul li a{
+        display: block;
+    }
+    nav{
+        display: block;
+        margin-right: 0;
+        width: 100%;
+    }
+    nav ul{
+        display: block;
+        width: 100%;
+    }
+    .pro {
+        display: inline;
+        list-style: none;
+
+    }
+    nav .pro img{
+        position: absolute;
+        width: 40px;
+        height:40px;
+        border-radius: 100px;
+        top: 125px;
+        left: 83%;
+    }
+    nav .pro a{
+        display: block;
+        margin-top: 8px;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: darkcyan;
+    }
+    nav .pro p{
+        margin: auto;
+        color: azure;
+    }
+    nav .pro h6{
+        margin: auto;
+        padding-left: 3px;
+    }
+    nav .profile{
+        display: none;
+    }
+    nav i{
+        margin-right: 10px;
+    }
+    header{
+        /*position: absolute;*/
+        background: darkslategray;
+    }
+    .search input{
+        margin-top: 10px;
+        margin-left: 90px;
+        color: azure;
+
+    }
+    .search input{
+        background: darkslategray;
+        border: none;
+        border-bottom: 1px solid white;
+        outline: none;
+        font-size: 20px;
+        width: 50%;
+        text-align: center;
+    }
+    .search input:focus{
+        border-bottom: 2px solid azure;
+
+    }
+    button {
+        background: none;
+        border: 2px solid azure;
+        border-radius: 5px;
+        color: azure;
+        font-size: 10px;
+        padding: 5px 5px;
+        text-transform: uppercase;
+        font-family: 'Noto Sans TC', sans-serif;
+
+    }
+    button:hover{
+        background: darkslategray;
+        color: white;
+        transition: 0.2s;
+    }
+    .icon{
+        color: azure;
+    }
+    .mobile{
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 800px;
+        /*background: orange;*/
+        margin-bottom: 200px;
+    }
+    .mobile .das-it{
+        position: absolute;
+        left: 30%;
+        top: 80px;
+        width: 50%;
+        border-radius: 10px;
+        height: 200px;
+        background: darkslategray;
+        color:powderblue;
+        transition: 0.2s;
+    }
+
+    .mobile .das-report{
+        position: absolute;
+        left: 30%;
+        top: 710px;
+        width: 50%;
+        border-radius: 10px;
+        height: 200px;
+        background: darkslategray;
+        color:powderblue;
+        transition: 0.2s;
+    }
+    body{
+        background: powderblue;
+    }
+    .mobile .das-or{
+        position: absolute;
+        left: 30%;
+        top: 290px;
+        border-radius: 10px;
+        height: 200px;
+        background: darkslategray;
+        color:powderblue;
+        transition: 0.2s;
+    }
+
+    .mobile .das-cu{
+        position: absolute;
+        left: 30%;
+        top: 500px;
+        width: 50%;
+        border-radius: 10px;
+        height: 200px;
+        background: darkslategray;
+        color:powderblue;
+        transition: 0.2s;
+    }
+    .mobile .das-cu i{
+        padding: 20px 45px;
+        font-size: 90px;
+    }
+
+    .mobile .das-cu p{
+        text-align: center;
+        font-size: 30px;
+        margin: 0;
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+    footer{
+        position: absolute;
+        top: 1550px;
+        width: 100%;
+        height: 40px;
+        padding-left: 20px;
+    }
+    footer p{
+        text-align: center;
+    }
+
+
+}

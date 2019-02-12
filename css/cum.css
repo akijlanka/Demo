@@ -1,0 +1,344 @@
+main{
+    width: 100%;
+}
+main nav{
+    position: fixed;
+    width: 20%;
+    background: darkslategray;
+    height: 700px;
+    z-index: 10000;
+}
+nav article h3{
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+nav .dash{
+    position: absolute;
+    top: 120px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+nav .cum{
+    position: absolute;
+    top: 190px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+nav .item{
+    position: absolute;
+    top: 260px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+nav .ord{
+    position: absolute;
+    top: 330px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+nav .emp{
+    position: absolute;
+    top: 400px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+nav .setting{
+    position: absolute;
+    top: 470px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+nav .logout{
+    position: absolute;
+    top: 590px;
+    /*background: powderblue;*/
+    width: 100%;
+    height: 60px;
+}
+
+nav p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+nav i{
+    padding-right: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: powderblue;
+}
+
+nav #active,
+nav div:hover{
+    background: SlateGrey;
+    color: white;
+    transition: 0.1s;
+    border-right: 3px solid orange;
+}
+.wap{
+    position: absolute;
+    left: 20%;
+    width: 80%;
+}
+.wap .top{
+    position: fixed;
+    z-index: 1200;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 2px 10px black;
+    background: white;
+}
+.top-1{
+    float:left;
+    width: 65%;
+    height: 70px;
+
+}
+
+.top-2{
+    float:left;
+    width: 20%;
+    height: 70px;
+    background: darkslategray;
+
+}
+.img img{
+    position: absolute;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50px;
+    border: 2px solid cornflowerblue;
+}
+.pro{
+    position: absolute;
+    top: 20px;
+    margin-left: 70px;
+
+}
+.pro p{
+    margin: 0;
+    color: white;
+}
+.pro h6{
+    margin: 0;
+    color: white;
+}
+
+.pro p:hover{
+    color: powderblue;
+}
+.icon{
+    position: absolute;
+    left:50%;
+    top: 0px;
+    width: 150px;
+    height: 70px;
+}
+
+.icon i:hover{
+    color: orange;
+}
+.icon p:hover{
+    color: orange;
+}
+.not{
+    position: absolute;
+    text-align: center;
+}
+
+.mas{
+    position: absolute;
+    top: 20px;
+    text-align: center;
+}
+.icon i{
+    padding-right: 10px;
+}
+
+
+
+.not .mark{
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    width: 40px;
+    height: 16px;
+    border-radius: 3px;
+    border: 2px solid darkslategray;
+
+
+}
+.not .mark p{
+    text-align: center;
+    margin: 0;
+}
+.not .mark p:hover{
+    background: darkslategray;
+    color: white;}
+
+.mas .mark{
+    position: absolute;
+    top: 18px;
+    left: 120px;
+    width: 40px;
+    height: 16px;
+    border-radius: 3px;
+    border: 2px solid darkslategray;
+
+}
+.mas .mark p{
+    text-align: center;
+    margin: 0;
+}
+
+.mas .mark p:hover{
+background: darkslategray;
+    color: white;
+}
+
+
+/*==================================*/
+.part ul{
+    padding-top: 20px;
+}
+
+.part  li {
+    display: inline;
+    font-size: 20px;
+    color: darkslategray;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+.part a{
+    text-decoration: none;
+    color:darkslategray;
+    font-size: 15px;
+
+}
+.part a:hover{
+    color: orange;
+}
+/*=======================================*/
+
+.wap .next{
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+.next .detail{
+    position: absolute;
+    top: 85px;
+    margin-left: 11px;
+    width: 90%;
+    height: 900px;
+    background: white;
+}
+.search input{
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.search input{
+    border: none;
+    border-bottom: 1px solid darkslategray;
+    outline: none;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+}
+.search input:focus{
+    border-bottom: 2px solid darkslategray;
+
+}
+button {
+    background: none;
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+    color: darkslategray;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+button:hover{
+    background: darkslategray;
+    color: white;
+    transition: 0.2s;
+}
+
+.inf input
+{
+
+    border: 1px solid darkslategray;
+    outline: none;
+    padding: 5px;
+    margin-left: 80px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 60%;
+    font-family: 'Noto Sans TC', sans-serif;
+    border-radius: 5px;
+
+}
+.inf{
+    margin-top: 20px;
+}
+.inf lable{
+    margin: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 15px;
+}
+.inf input:focus{
+    border: 2px solid darkslategray;
+
+}
+.dt{
+    margin-left:200px;
+}
+
+.inf .but{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.but button{
+    margin-left:60px;
+    font-size: 20px;
+}
+.cum_but{
+    position: absolute;
+    top: 600px;
+    left: 90px;
+    width: 100%;
+}
+.cum_but table{
+     padding:10px 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+.cum_but th{
+    padding: 8px 8px;
+    background: lightsteelblue;
+    color: darkslategray;
+}
